@@ -1,0 +1,11 @@
+### DialogFragment与Dialog的区别
+
+---
+
+Fragment与Dialog的区别：Dialog有自己单独的window  dialog的show方法中用mWindowManager.addView(mDecor, l)展示界面 ，Dialog的生命周期由show 和dismiss控制
+
+ Activity中有一个FragmentManager用于统一管理Fragment生命周期，Fragment的生命周期受Activity生命周期影响。Fragment在onCreatView之后将View添加到Activity的Container中。
+
+
+
+DialogFragment 是Fragment的子类所以相应的生命周期函数受Activity影响  在onGetLayoutInflater阶段创建内部的Dialog. 在onActivityCreated阶段如果能得到在onCreateView返回的view会调用mDialog.setContentView(view)，这里如果在onCreateDialog中调用了mDialog.setContentView(view) 就不必要实现onCreateView方法了;  在onStart中show dialog onStop中hide dialog  在onDestroyView调用dismiss dialog
