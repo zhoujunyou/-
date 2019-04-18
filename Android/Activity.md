@@ -6,3 +6,6 @@ Application启动流程
 
 
 
+```
+startActivityUncheckedLocked
+```
