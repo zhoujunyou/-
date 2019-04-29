@@ -34,6 +34,8 @@
 
   https://mvnrepository.com/artifact/com.android.tools.build/gradle/3.3.0
 
+  https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle/3.3.0/gradle-3.3.0-source.jar
+
   设置remote ，com.android.build.gradle.BasePlugin上的apply方法中打上断点。
   执行task命令后加上  -Dorg.gradle.debug=true --no-daemon 点击调式的按钮.
 
@@ -41,5 +43,7 @@
 
 ---
 
-从 gradlew文件说起 
+[参考文章](https://www.jianshu.com/p/11f030b2034f)
+
+
 

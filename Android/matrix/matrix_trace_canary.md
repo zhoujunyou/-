@@ -1,4 +1,4 @@
-### matrix_trace_canary
+###  matrix_trace_canary
 
 问题方法检测原理：在class文件转dex文件时 扫描class在需要修改的地方利用asm修改字节码文件
 
