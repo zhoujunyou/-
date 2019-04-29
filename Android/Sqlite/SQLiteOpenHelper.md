@@ -324,7 +324,7 @@
 
    #### 查询
 
-   ![SQLiteDatabase query](assets/SQLiteDatabase query.png)
+   ![SQLiteDatabase query](https://github.com/zhoujunyou/-/blob/2019-04-29/Android/Sqlite/assets/SQLiteDatabase%20query.png)
 
    来到了最查用的查询步骤。[CursorWindow了解](#CursorWindow),[SQLiteCursor了解](#SQLiteCursor)
 
